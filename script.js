@@ -103,7 +103,7 @@ window.addEventListener('DOMContentLoaded', () => {
   // Typing effect (Home only if exists)
   const typedTarget = document.querySelector('[data-typed]');
   if(typedTarget){
-    const words = ['Graphics Design', 'Video Editing', 'Web Development'];
+    const words = ['Graphics Design', 'Video Editing', 'Motion Graphics'];
     let i=0, j=0, del=false;
     const tick = () => {
       const w = words[i];
